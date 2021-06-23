@@ -3,7 +3,16 @@
   Set Title: <input [(ngModel)]="title" />
 </div>
 <div>
+  <app-nav-bar [title]="'Nav Bar Component'"></app-nav-bar>
+</div>
+<div>
+  <app-top-banner [title]="'Top Bar Component'"></app-top-banner>
+</div>
+<div>
+  <app-category-menu [title]="'Category Menu Component'"></app-category-menu>
+</div>
+<div>
   <h2>{{ count }}</h2>
   <button
   (click)="countNumber()">Count</button>
-  </div>
+</div>

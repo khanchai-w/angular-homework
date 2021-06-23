@@ -1,0 +1,7 @@
+<div>
+  <h2>{{title}}</h2>
+</div>
+<div *ngFor="let item of items">
+  <p *ngIf="item%2==0" [ngClass]="{'number-even': item%2==0}">{{item}}</p>
+  <p *ngIf="item%2!=0" [ngClass]="{'number-odd': item%2!=0}">{{item}}</p>
+</div>

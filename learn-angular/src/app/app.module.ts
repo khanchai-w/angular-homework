@@ -1,3 +1,8 @@
+import { TopBannerComponent } from './top-banner/top-banner.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { CategoryMenuComponent } from './category-menu/category-menu.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { Lab4Component } from './lab4-component/lab4.component';
 import { CountingComponent } from './counting-component/counting.component';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
@@ -10,7 +15,12 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    CountingComponent
+    CountingComponent,
+    Lab4Component,
+    NavBarComponent,
+    TopBannerComponent,
+    CategoryMenuComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
