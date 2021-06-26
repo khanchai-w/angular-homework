@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "homework2"
+    }
+  },
+  "defaultProject": "homework2",
+  "cli": {
+    "analytics": false
+  }
 }
