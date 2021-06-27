@@ -1,10 +1,7 @@
 # angular-homework
-เรียนรู้ Angular
 
-#LAB 3
+การบ้าน Angular ข้อ 10, 11, 13
 
-#LAB 4
 
-#LAB 5
 
 
